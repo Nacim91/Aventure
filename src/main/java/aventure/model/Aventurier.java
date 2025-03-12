@@ -1,4 +1,4 @@
-package main.aventure.model;
+package main.java.aventure.model;
 
 public class Aventurier {
     private Coordonnee position;

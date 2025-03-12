@@ -1,4 +1,4 @@
-package main.aventure.model;
+package main.java.aventure.model;
 
 import java.io.IOException;
 import java.nio.file.Files;

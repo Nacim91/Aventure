@@ -1,7 +1,7 @@
-package main.aventure;
+package main.java.aventure;
 
 
-import main.aventure.model.*;
+import main.java.aventure.model.*;
 
 import java.io.IOException;
 
@@ -18,7 +18,7 @@ public class Aventure {
         boolean axesInverser = false;
 
         try {
-            carte = new Carte("carte.txt");
+            carte = new Carte("src/main/resources/carte.txt");
             mouvements = new Chemin(args[0]);
         } catch (IOException e) {
             e.printStackTrace();
